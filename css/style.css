@@ -67,14 +67,6 @@ footer {
     width: 100%;
 }
 
-/* HEADER */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
-    background-color: #222;
-    height: 70px; /* Fixed height */
 }
 
 /* LOGO */
