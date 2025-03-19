@@ -87,11 +87,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
-    background-color: #222;
-    height: 70px; /* Fixed height */
-}
