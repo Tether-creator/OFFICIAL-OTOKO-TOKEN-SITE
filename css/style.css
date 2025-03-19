@@ -87,33 +87,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-}
-/* LOGO */
-.logo img {
-    height: 50px; /* Adjustable without affecting header height */
-    max-width: 150px; /* Ensures it doesn't stretch too much */
-}
-
-/* NAVIGATION */
-nav ul {
-    list-style: none;
+header {
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffcc00; /* Logo color */
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #00ff99; /* Hover color */
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #222;
+    height: 70px; /* Fixed height */
 }
