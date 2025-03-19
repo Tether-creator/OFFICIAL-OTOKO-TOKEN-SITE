@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #121212; color: #ffffff; }
+header { display: flex; align-items: center; padding: 10px; background: #222; }
+.logo img { height: 50px; }
+nav ul { list-style: none; display: flex; gap: 20px; }
+nav ul li a { color: #ffffff; text-decoration: none; }
+footer { text-align: center; padding: 20px; background: #222; }
+.social-icons a { margin: 0 10px; color: #ffffff; }
