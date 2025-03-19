@@ -12,7 +12,10 @@ header {
     text-align: center;
 }
 
-.logo {
+.logo 
+.logo img {
+    height: 50px; /* Adjustable without affecting header height */
+    max-width: 150px; /* Ensures it doesn't stretch too much */
     width: 150px;
 }
 
