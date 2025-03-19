@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+nav ul li {
+    margin-left: 20px;
+}
+
 .logo img {
     height: 50px; /* Adjustable without affecting header height */
     max-width: 150px; /* Ensures it doesn't stretch too much */
