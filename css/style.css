@@ -1,27 +1,27 @@
-/* Apply OTOKO brand colors */
+/* Global Styles */
 body {
-    background-color: #121212;
-    color: #ffffff;
     font-family: Arial, sans-serif;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+    color: white;
 }
 
 /* Header */
 header {
-    background-color: #ff6600;
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #121212;
 }
 
 .logo img {
-    height: 50px;
+    width: 100px;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
     display: flex;
 }
@@ -31,33 +31,38 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
     text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: cyan;
+}
+
 /* Sections */
-section {
-    padding: 50px;
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: cyan;
 }
 
 /* Footer */
 footer {
-    background-color: #222;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 30px;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
+footer a {
+    color: cyan;
+    text-decoration: none;
     margin: 0 10px;
 }
 
-footer ul li img {
-    height: 20px;
+footer a:hover {
+    color: white;
 }
