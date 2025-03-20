@@ -19,6 +19,15 @@ header {
 .logo img {
     height: 70px;
     width: auto;
+    .logo {
+    display: flex;
+    align-items: center;
+}
+
+.token-name {
+    height: 70px; 
+    margin-left: 10px;
+}
 }
 
 nav ul {
