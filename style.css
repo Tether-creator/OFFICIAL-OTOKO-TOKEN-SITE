@@ -12,12 +12,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     background-color: #4AB7CC;
 }
 
 .logo img {
-    height: 150px;
+    height: 100px;
     width: auto;
 }
 
