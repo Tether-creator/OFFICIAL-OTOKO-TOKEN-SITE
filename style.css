@@ -73,3 +73,35 @@ footer {
     width: 30px;
     margin: 5px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between sections */
+    align-items: center; /* Aligns everything vertically */
+    padding: 10px 20px;
+    background-color: #4AB7CC;
+    color: white;
+}
+
+.footer nav {
+    display: flex;
+    gap: 15px; /* Spacing between links */
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px; /* Spacing between icons */
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons img {
+    width: 25px; /* Adjust icon size */
+    height: 25px;
+}
