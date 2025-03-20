@@ -1,38 +1,65 @@
-/* HEADER */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #101820;
+    color: #ffffff;
+}
+
+/* Header */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 20px;
-    background-color: #222;
-    height: 70px; /* Fixed height */
+    padding: 15px;
+    background-color: #FFD700;
 }
 
-/* LOGO */
 .logo img {
-    height: 50px; /* Adjustable without affecting header height */
-    max-width: 150px; /* Ensures it doesn't stretch too much */
+    height: 50px;
 }
 
-/* NAVIGATION */
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    gap: 20px;
 }
 
 nav ul li {
-    margin-left: 20px;
+    display: inline;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #ffcc00; /* Logo color */
+    color: #101820;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #00ff99; /* Hover color */
+    color: #ff4500;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.price-tracker {
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #FFD700;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
 }
