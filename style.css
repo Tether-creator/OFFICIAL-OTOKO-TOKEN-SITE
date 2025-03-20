@@ -75,8 +75,8 @@ footer {
 }
 .footer {
     display: flex;
-    justify-content: space-between; /* Ensures spacing between sections */
-    align-items: center; /* Aligns everything vertically */
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     background-color: #4AB7CC;
     color: white;
@@ -84,12 +84,12 @@ footer {
 
 .footer nav {
     display: flex;
-    gap: 15px; /* Spacing between links */
+    gap: 15px;
 }
 
 .footer .social-icons {
     display: flex;
-    gap: 10px; /* Spacing between icons */
+    gap: 10px;
 }
 
 .footer a {
@@ -102,6 +102,6 @@ footer {
 }
 
 .footer .social-icons img {
-    width: 25px; /* Adjust icon size */
+    width: 25px;
     height: 25px;
 }
